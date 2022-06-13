@@ -1,12 +1,5 @@
 # BACKEND
-# API DOCUMENTATION COLLECTION
-- https://documenter.getpostman.com/view/7031787/Uz5NkDhq
 
-## EIMPORT DB USING FOLLOWOING COMMING
-   ### -- IMPORT
-       --- mongorestore --host localhost  --port 27017 -d DBname C:\yourFolderName
- ### -- EXPORT
-       --- mongodump --host localhost --port 27017 -d DBname -o C:\yourFolderName
 
 # Start with nodemon src/app.js
 
@@ -16,6 +9,15 @@
 - PORT : 3090
 - DB NAME : GlossaryDB
 - Base Route : /api
+# API DOCUMENTATION COLLECTION
+- https://documenter.getpostman.com/view/7031787/Uz5NkDhq
+
+## IMPORT and EXPORT DB USING FOLLOWOING COMMING
+   ### -- IMPORT
+       --- mongorestore --host localhost  --port 27017 -d DBname C:\yourFolderName
+ ### -- EXPORT
+       --- mongodump --host localhost --port 27017 -d DBname -o C:\yourFolderName
+
 
 ## MODULE
  ### -- ROUTES
